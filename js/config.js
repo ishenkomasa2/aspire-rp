@@ -22,12 +22,12 @@ var l_displayMapGamemode = true;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "IRON CLAD";
+var l_serverName = "Aspire RP";
 
 // Use a video for the background?
 // Otherwise it will use images
 // 'true' or 'false'
-var l_bgVideo = true;
+var l_bgVideo = false;
 
 // Default available videos:
 // "aurora.webm"
@@ -72,9 +72,7 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"aspire.jpg"
 ];
 
 // (Image-background only)
@@ -98,7 +96,7 @@ var l_bgOverlay = true;
 
 // Background darkening amount
 // 0 for none (0%), 100 for pitch black (100%)
-var l_bgDarkening = 50;
+var l_bgDarkening = 10;
 
 // Play music during the loading screen?
 // 'true' or 'false'
@@ -113,12 +111,14 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "dutyhonor.ogg", name: "Duty & Honor"},
+	{ogg: "dont.ogg", name: "Don`t Care"},
+	{ogg: "ennui.ogg", name: "ennui"},
+	{ogg: "the_one.ogg", name: "The One Who Love You"},
 ];
 
 // Random music order?
 // 'true' or 'false'
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
@@ -130,9 +130,8 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Quests & Storyline",
-	"Blood, Glory & Taxes",
-	"There is no bullshit here, just pure medieval.",
+	"Їдемо в Aspire RP",
+	"Поки насолоджуйтеся музикою!",
 ];
 
 // Random message order?
