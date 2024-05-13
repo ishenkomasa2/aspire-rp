@@ -104,7 +104,7 @@ var l_music = false;
 
 // Display current music name?
 // 'true' or 'false'
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 // Music playlist
 // Add as many youtube ids/urls or ogg files you want
@@ -118,7 +118,7 @@ var l_musicPlaylist = [
 
 // Random music order?
 // 'true' or 'false'
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
