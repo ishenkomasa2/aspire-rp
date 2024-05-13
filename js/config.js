@@ -111,9 +111,10 @@ var l_musicDisplay = false;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "dont.ogg", name: "Don`t Care"},
-	{ogg: "ennui.ogg", name: "ennui"},
-	{ogg: "the_one.ogg", name: "The One Who Love You"},
+	{ogg: "dontg.ogg", name: "Don`t Care"},
+	{ogg: "ennuig.ogg", name: "ennui"},
+	{ogg: "the_oneg.ogg", name: "The One Who Love You"},
+	{ogg: "https://www.youtube.com/watch?v=was28sQGZIg&ab_channel=VIRA-Topic", name: "lox"},
 ];
 
 // Random music order?
